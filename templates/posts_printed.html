@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    {% for post in blogPosts %}
+      <h2>{{post.title}}</h2>
+      <h4>{{post.name}}</h4>
+      <p>{{post.content}}</p>
+      <p>{{post.time_date}}</p>
+    {% endfor %}
+  </body>
+</html>
